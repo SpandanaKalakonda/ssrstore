@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSR Store</title>
+    <link rel="icon" type="image/x-icon" href="images/fruit.png">
+    <!-- Font awesome-->
+    <script src="https://kit.fontawesome.com/91904d0dd7.js" crossorigin="anonymous"></script>
+    <!-- custom css-->
+    <link rel="stylesheet" href ="styles.css">
+    <a href="https://www.freepik.com/free-photo/sweet-potato_7303535.htm#query=potatoes&position=25&from_view=search&track=sph">Image by Racool_studio</a> on Freepik
+    
+</head>
+<body>
+    
+    <!-- header -->
+    <header class="header">
+        <a href="#" class="logo"><img src="images/fruit.png"> SSR Store </a>
+    
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#products">Products</a>
+            <a href="#about">About</a>
+            <a href="#contactus">Contact Us</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+        <form action="" class="search-form">
+            <input type ="search" id="search-box" placeholder="Search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/tomatoes.jpg" alt="">
+                <div class="content">
+                    <h3>Tomatoes</h3>
+                    <span class="price">$7.99</span><br>
+                    <span class="quantity">Quantity : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/lemon-table.jpg" alt="">
+                <div class="content">
+                    <h3>Lemon</h3>
+                    <span class="price">$9.99</span><br>
+                    <span class="quantity">Quantity : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/sweet-potato.jpg" alt="">
+                <div class="content">
+                    <h3>sweet Potato</h3>
+                    <span class="price">$4.99</span><br>
+                    <span class="quantity">Quantity : 1</span>
+                </div>
+            </div>
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="images/red-chili-peppers.jpg" alt="">
+                <div class="content">
+                    <h3>Red Chili</h3>
+                    <span class="price">$4.99</span><br>
+                    <span class="quantity">Quantity : 1</span>
+                </div>
+            </div>
+            <div class="total">Total: 22.9 </div>
+            <a href="#" class="btn"> Checkout</a></a>
+        </div>
+        <form action="" class="login-form">
+            <h3>Login</h3>
+            <input type="email" placeholder="Enter Email" class="box">
+            <input type="password" placeholder="Enter password" class="box">
+            <p>Forget your password <a href="#">Click Here</a></p>
+            <p>Don't have an account <a href="#">Create Now</a></p>
+            <input type="submit" value="Login" class="btn">
+        </form>
+        </header>
+    <!--header end-->
+    <!--home-->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Fresh <span>Healthy</span> Veggies for you and your Family</h3>
+            <p> Healthy Veggies grown in our own Farms </p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </section>
+    <!--home end-->
+    <!--features-->
+    <section class="features" id="features">
+        <h1 class="heading"> <span> Our features </span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/close-up-box-with-vegetables-hands-mature-man.jpg" alt="">
+                <h3>Fresh Veggies</h3>
+                <p>Healthy Veggies grown in our own Farms</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+            <div class="box">
+                <img src="images/organic-food-farm.jpg" alt="">
+                <h3>Organic</h3>
+                <p>Healthy Veggies grown in our own Farms</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+            <div class="box">
+                <img src="images/woman-hat-holding-funnel-works-garden.jpg" alt="">
+                <h3> Our Farms </h3>
+                <p>Healthy Veggies grown in our own Farms</p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+        </div>
+    </section>
+    <!--features end-->
+
+    <!--products-->
+    <section class="products" id ="products">
+        <h1 class="heading">  <span>Our Products</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/tomatoes.jpg" alt="">
+                <h3> Tomatoes </h3>
+                <div class="price">$1.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <img src="images/spinach-table.jpg" alt="">
+                <h3> Spinach</h3>
+                <div class="price">$2.39</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <img src="images/eggplant.jpg" alt="">
+                <h3> Eggplant </h3>
+                <div class="price">$2.49</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <img src="images/green-lettuce-white-surface.jpg" alt="">
+                <h3> Green Lettuce </h3>
+                <div class="price">$1.99 - $3.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <img src="images/raw-onions-white-surface.jpg" alt="">
+                <h3> Onions </h3>
+                <div class="price">$3.99 - $5.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <img src="images/sweet-potato.jpg" alt="">
+                <h3> Sweet Potato </h3>
+                <div class="price">$0.99 - $2.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/lemon-table.jpg" alt="">
+                <h3> Lemon </h3>
+                <div class="price">$0.79 - $ 2.49</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <img src="images/bittersweet-ginger.jpg" alt="">
+                <h3> Ginger </h3>
+                <div class="price">$1.99 - $4.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <img src="images/garlic-white-surface.jpg" alt="">
+                <h3> Garlic </h3>
+                <div class="price">$1.99 - $3.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/red-chili-peppers.jpg" alt="">
+                <h3> Reb Chili </h3>
+                <div class="price">$2.99 - $4.99 </div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+            <div class="box">
+                <img src="images/delicious-carrot-raw.jpg" alt="">
+                <h3> Carrots </h3>
+                <div class="price">$0.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to cart</a>
+            </div>
+        </div>
+    </section>
+    <!--products end-->
+
+    <!--About-->
+    <section class ="about" id="about">
+        <h1 class="heading"> <span> About Us </span> </h1>
+        <div class="box-container">
+            <div class="box">
+                <h3>Our Vision</h3>
+                <img src="images/vision.jpg" alt="">
+                <p>Make this as a one stop place where you get buy afordable <span>Organic</span> and <span> Healthy</span> fruits and vegtables </p>
+            </div>
+            <div class="box">
+                <h3>Our Mission</h3>
+                <img src="images/mission.jpg" alt="">
+                <p> To grow and serve people with organic fruits and Veggies will help to promote your health and <span>Immunity</span> </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--About end-->
+    
+    <!--Contact-->
+
+    <section class="footer" id="contactus">
+        <div class="box-container">
+            <div class="box">
+                <h3>SSR Store <img src="images/fruit.png"></h3>
+                <p>Fresh Healthy Veggies for you and your Family</p>
+                <div class="share">
+                    <a href="#"class="fa-brands fa-square-facebook"></a>
+                    <a href="#"class="fa-brands fa-square-instagram"></a>
+                    <a href="#"class="fa-brands fa-square-twitter"></a>
+                    <a href="#"class="fa-brands fa-linkedin"></a>
+                </div>
+            </div>
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#" class="links"><i class="fa fa-phone"></i> +987-654-3210</a>
+                <a href="#" class="links"><i class="fa fa-phone"></i> +999-888-7777</a>
+                <a href="#" class="links" style="text-transform: lowercase;"><i class="fa fa-envelope"></i> ssrstore@email.com</a>
+                <a href="#" class="links"><i class="fa fa-map-marker-alt"></i> United States</a>
+            </div>
+            <div class="box">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home" class="links">Home</a></li>
+                    <li><a href="#features" class="links">Features</a></li>
+                    <li><a href="#products" class="links">Products</a></li>
+                    <li><a href="#about" class="links">About</a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>News letter</h3>
+                <p>Subscribe for latest Updates</p>
+                <input type="text" placeholder="Enter your mail Id" class="email">
+                <input type="submit" value="Subscribe" class="btn">
+            </div>
+
+        </div>
+    </section>
+    <!--contact end-->
+    
+    <!--custom js-->
+    <script src="app.js"> </script>
+</body>
+</html>
